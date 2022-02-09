@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}View all users{% endblock %}
+
+{% block content %}
+
+{% for user in data %}
+    <p>Name: {{user.name}}, E-mail: {{user.email}}</p>
+{% endfor %}
+
+{% endblock %}
+

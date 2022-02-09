@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}User Page{% endblock %}
+{% block jumbo %}User Page{% endblock %}
+
+{% block content %}
+
+<form method="post">
+    <p>Name:</p>
+    <p><input type="email" name="email" placeholder="Enter Email" value="{{email if email}}"/></p>
+    <p><input type="submit" value="Verzenden" /></p>
+</form>
+
+{% endblock %}
+
