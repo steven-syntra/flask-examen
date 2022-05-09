@@ -19,3 +19,7 @@ p.info {
     color: white;
     font-weight: bold;
 }
+
+.kolom {
+    border: 1px solid gray;
+}
