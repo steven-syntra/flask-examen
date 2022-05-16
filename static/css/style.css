@@ -10,16 +10,61 @@
 }
 
 .navbar  {
-    margin-bottom: 2rem;
+}
+
+.section_head {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-bottom: 1px solid white;
+    padding: 10px 10px 10px 10px;
 }
 
 p.info {
     padding: 10px 30px;
     background: #6671cd;
-    color: white;
+    color: #06571b;
     font-weight: bold;
 }
 
 .kolom {
-    border: 1px solid gray;
+    border: 1px solid #05805f;
+    min-height: 300px;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+}
+
+#section1 {
+    background: #23aac1;
+}
+
+#section2 {
+    background: #b41009;
+}
+
+#footer {
+    background: #111;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#section1 div.row.rowtitle, #section2 div.row.rowtitle {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 15px 30px 15px ;
+}
+
+#section1 div.row.flexrow, #section2 div.row.flexrow, #footer div.row.flexrow {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 0px 100px 0px ;
+}
+
+#footer div.row.flexrow {
+    padding: 80px 0px 80px 0px;
 }
