@@ -1,3 +1,7 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
 #mainform input, #mainform select{
     border: 1px solid #aaa;
     background: #f6f6f6;

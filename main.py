@@ -27,6 +27,9 @@ class users(db.Model):
 def home():
     return render_template("index.html")
 
+@app.route("/spaces")
+def spaces():
+    return render_template("spaces/index.html")
 
 @app.route("/numpy")
 def numpy():
